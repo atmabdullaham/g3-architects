@@ -1,8 +1,40 @@
 *{
  margin: 0px;
  padding: 0px;
+ box-sizing: border-box;
 }
 
-body{
- 
+body {
+ font-size: 18px;
+ padding: 24px;
+ max-width: 1920px;
+ margin: 0 auto;
+}
+
+header{
+ background: rgba(255, 144, 14, 0.1);
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+}
+.navlink-container{
+ display: flex;
+}
+.navlink-container li{
+ list-style: none;
+}
+.navlink-container a{
+ text-decoration: none;
+}/* Global CSS (Desktop-first approach) */
+html {
+ font-size: 100%;
+ /* 16px by default */
+}
+
+body {
+
+ /* Limit the width for large screens */
+ margin: 0 auto;
+ /* Center the layout */
 }
